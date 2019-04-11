@@ -1,0 +1,482 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper {
+	background-color: rgb(255,255,255);
+	width:960px;
+	text-align: center;
+	margin: auto;
+}
+
+/* BANNER */
+header {
+	background-image: url(images/bannernew.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	border-bottom: 1px solid rgb(0,0,0);
+	height:170px;
+}
+
+#header-text {
+	text-align:center;
+	font-size: 30pt;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    padding-top: 35px;
+}
+
+/* BANNER FINISHED */
+
+/* NAVIGATION BAR */
+
+nav {
+	background-color: rgb(255,255,255);
+	display: block;
+	text-align: left;
+	position: absolute;
+    font-family: 'Dosis', sans-serif;
+	padding: 1px 23px 1px 95px;
+	margin-right:23px;
+	font-size: 15pt;
+	height: 32px;
+}
+
+nav ul {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	padding-bottom: 10px;
+	padding-top: 4px;
+}
+
+nav ul li{
+	display:inline;	
+	margin-right: 23px;
+}
+
+#home {
+	background: #f9f5cd;
+	border: dotted;
+	width: 50px;
+}
+
+
+#design {
+	background: #f9f5cd;
+	border: dotted;
+}
+
+#crafts {
+	background: #f9f5cd;
+	border: dotted;
+}
+
+#fashionnav{
+	background: #f9f5cd;
+	border: dotted;
+}
+
+#food{
+	background: #f9f5cd;
+	border: dotted;
+}
+
+#travelnav {
+	background: #f9f5cd;
+	border: dotted;
+}
+
+#searchtext {
+	margin-right: 160px;
+	position:relative;
+}
+
+#search ul {
+	list-style:none;
+	height: 42px;
+	text-align: right;
+	font-family: 'Dosis', sans-serif;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 140px;
+	border-bottom: 1px solid black;
+	height: 20px;
+	font-size: 15pt;
+}
+
+#search img{
+	float: right;
+	margin-top: -26px;
+	margin-right: 45px;
+}
+
+/* NAVIGATION BAR FINISHED */
+
+/* TOP TRENDING ARTICLE  */
+#featured-art {
+	display: block;
+	background-color: rgb(255,255,255);
+	padding: 0px;
+	text-align: left;
+}
+
+#featured-art h2{
+	padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14pt;
+    font-family: courier;
+    padding-left: 4px;
+}
+
+#featured-text {
+	display: block;
+	background-color: rgb(255,255,255);
+	width: 238px;
+	height:206px;
+	float: right;
+	border-style: dotted;
+	margin-top: -216px;
+	margin-right: 14px;
+	text-align: left;
+	font-family: courier;
+	font-size: 11pt;
+	padding-left:2px;
+}
+
+#heading-ruby {
+	padding-bottom: 15px;
+	font-family: courier;
+	font-size: 11pt;
+}
+
+#featuredartdescrip {
+	padding-bottom:15px;
+}
+
+/* TOP TRENDING ARTICLE FINISHED */
+
+/* LATEST STORIES */
+
+#latest-stories {
+	display: block;
+	background-color: rgb(255,255,255);
+}
+
+#latest-heading{
+	text-align:left;
+	font-family: courier; 
+	font-size: 11px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left: 4px;
+}
+
+#nookiewoodpic{
+	float:left;
+	padding-right: 14px;
+}
+
+#latest-text {
+    width: 207px;
+    height: 115px;
+    float: right;
+    text-align: left;
+    margin-left: -100px;
+    margin-top: -110px;
+    margin-right: 100px;
+    font-family:courier;
+    font-size: 10pt;
+}
+
+#descrip{
+	width: 200px;
+	margin-top: 0px;
+	margin-left: 140px;
+	padding-bottom:10px;
+}
+
+#readmorenook {
+	margin-left:140px;
+	width: 209px;
+}
+
+#laurendiciocio img{
+	float: left;
+	margin-top: 2px;
+	margin-left: -193px;
+}
+
+#laurendiciocio {
+	float: right;
+	text-align: left;
+	width: 200px;
+	height: 93.6px;
+	margin-right: 267px;
+	margin-top: -130px;
+	font-family: courier;
+	font-size: 10pt;
+	padding-bottom: 10px;
+}
+
+/* LATEST STORIES FINISHED */
+
+/* SOCIAL MEDIA */
+
+#socials{
+	float: right;
+	border: dotted;
+	padding-top: 4px;
+	margin-right: 163px;
+	margin-top: -285px;
+	width:210px;
+}
+
+/* SOCIAL MEDIA FINISHED */
+
+/* FRANKIE FAMILY */
+
+aside {
+	float:right;
+	border:dotted;
+	padding: 5px;
+	width:210px;
+	margin-right: 163px;
+	margin-top: -135px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#login {
+	display: inline;
+	border: solid 1.5px;
+	margin-left: 0px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#signup {
+	display: inline;
+	border: solid 1.5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: 20px;
+}
+
+/* FRANKIE FAMILY FINISHED */
+
+/* SUBSCRIBE */
+
+#subscribe {
+	display: block;
+	background-image: url(images/subscribefinal1.jpg);
+	height:62px;
+	border:dotted;
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-bottom-width: 4px;
+	border-left-width: 4px;
+}
+
+#subscribe h3{
+	float: left;
+	padding-top:9px;
+	margin-top: 12px;
+	padding-left:60px;
+	font-family: courier;
+	font-size: 14pt;
+}
+
+/* SUBSCRIBE FINISHED */
+
+/* ACTIVITIES */
+
+#activities {
+	display: block;
+	background-color: rgb(255,255,255);
+}
+
+#crafty h3{
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family:courier;
+}
+
+#crafty img{
+	border: dotted;
+	padding: 3px;
+	margin-top: 35px;
+	margin-left: -510px;
+}
+
+#crafty h5{
+	margin-left: -330px;
+	padding-top: 7px;
+	font-family:courier;
+	font-size: 13pt;
+}
+
+#foody h3{
+	float: right;
+	margin-right: 165px;
+	margin-top: -230px;
+	font-family: courier;
+}
+
+#foody img{
+	float: right;
+	border: dotted;
+	padding: 3px;
+	margin-top: -205px;
+	height: 169px;
+	margin-right: 10px;
+}
+
+#foody h5{
+	float:right;
+	font-family: courier;
+	font-size: 13pt;
+	margin-right: 60px;
+	margin-top: -15px;
+}
+
+#travel h3{
+	margin-top: 20px;
+	float: right;
+	font-family: courier;
+	width: 200px;
+	margin-right: 460px;
+}
+
+#travel img{
+	float: left;
+	border: dotted;
+	padding: 3px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#travel h5{
+	float: left;
+	font-family: courier;
+	font-size: 13pt;
+	width: 256px;
+	margin-right: 200px;
+	margin-top: 10px;
+	margin-left: 35px;
+}
+
+#fashion h3{
+	float: right;
+	font-family: courier;
+	margin-right: 140px;
+	margin-top: -255px;
+}
+
+#fashion img{
+	border: dotted;
+	padding: 3px;
+	height: 172px;
+	margin-left: 330px;
+	margin-top: -1000px;
+	margin-bottom: 60px;
+}
+
+#fashion h5{
+	float: right;
+	margin-top: -55px;
+	font-family: courier;
+	width: 255px;
+	margin-right: 35px;
+	font-size: 13pt;
+}
+/* ACTIVITIES FINISHED */
+
+/* FOOTER */
+
+footer {
+	display: block;
+	background-image: url(images/footer.jpg);
+	width:962px;
+	height: 60px;
+	margin-left: -150px;
+	margin-top: 18px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+}
+
+footer ul{
+	list-style:none;
+	padding-left:24px;
+	float:left;
+}
+
+footer li{
+	display:inline;
+	text-align:center;
+	padding-right: 14px;
+}
+
+#footerlogo {
+	font-family: 'Sacramento', cursive;
+	font-size:30pt;
+	padding-left: 40px;
+}
+
+/* FOOTER FINISHED */
+
+/* PANEL BARS */
+#panelA {
+	background-color:#bde5ef;
+	width: 150px;
+	height: 560px;
+}
+
+#panelB {
+	background-color:#bde5ef;
+	width: 150px;
+	height: 560px;
+	margin-left: 663px;
+	margin-top: -261px;
+}
+
+#panelC {
+	background-color:#bde5ef;
+	width: 150px;
+	height: 562px;
+}
+
+#panelD {
+	background-color:#bde5ef;
+	width: 150px;
+	height: 562px;
+	margin-top: -536.5px;
+	margin-left: 152px;
+}
+/* PANEL BARS FINISHED */
+
+/* Create three equal columns that floats next to each other */
+.columnA {
+    float: left;
+    width: 150px;
+}
+.columnB {
+    float: left;
+    width: calc(100% - 300px);
+}
+
+.columnC {
+	float: right;
+	width: 150px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
